@@ -22,15 +22,18 @@ svg {
     transition: 0.5s all ease-in-out;
 }
 
-.chris-cv {
+.chris-cv .a-block{
     border: 4px white solid;
     color: white;
+    display: block;
     font-family: arial, sans-serif;
+    font-size: 1em;
     font-weight: bold;
+    height: 22px;
     padding: 0 3px;
 }
 
-.chris-cv:hover, a:hover {
+.chris-cv:hover, .a-block:hover {
     color: #ff6699;
     border-color: #ff6699;
 }
