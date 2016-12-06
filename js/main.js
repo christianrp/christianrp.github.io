@@ -1,3 +1,4 @@
+/*
 var projects = document.getElementById('projects');
 var skills = document.getElementById('skills');
 var contact = document.getElementById('contact');
@@ -31,3 +32,4 @@ function dest(elID) {
   var element = document.getElementById(elID);
   scrollTo(element.offsetTop, 500);
 }
+*/
