@@ -3,72 +3,81 @@ html {
   margin: 0;
   padding: 0;
 }
+
 a {
   display: block;
   text-decoration: none;
   color: inherit;
   transition: all 0.3s ease-in-out;
 }
+
 body {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
+  background-color: rgba(247, 247, 247, 0.97);
 }
-header#header-main {
+
+#header-main {
   display: flex;
   flex-direction: column-reverse;
   width: 100%;
 }
-header#header-main #nav-main ul {
+
+#nav-main ul {
   padding: 0;
   margin: 0;
   display: flex;
   list-style-type: none;
 }
-@media (max-width: 590px) {
-  header#header-main #nav-main ul {
-    flex-direction: column;
-  }
-}
-header#header-main #nav-main ul li {
+
+#nav-main ul li {
   text-transform: uppercase;
-  border: 1px #e4e4e4 solid;
   flex: 1;
   text-align: center;
 }
-header#header-main #nav-main ul li a {
+
+#nav-main ul li a {
   padding: 15px 60px;
 }
-header#header-main #nav-main ul li a:hover {
-  color: #36C3F0;
+
+#nav-main ul li a:hover {
+  color: #828B8F;
 }
-header#header-main .bulb {
+
+.bulb {
   display: flex;
   justify-content: center;
-  background: #36C3F0;
-  height: 515px;
+  height: 450px;
+  fill: #333;
 }
-header#header-main #main-heading h1 {
+
+#main-heading h1 {
   padding-left: 10px;
 }
-main#primary section#projects div.title {
+
+#projects div.title {
   text-align: center;
   text-transform: uppercase;
   font-weight: normal;
   padding-top: 70px;
   margin-bottom: 50px;
 }
-main#primary section#projects div.title span {
+
+#projects div.title span {
   padding-bottom: 15px;
   border-bottom: 2px #e4e4e4 dashed;
 }
-main#primary section#projects div.content ul.projects {
+
+#projects ul.projects {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   list-style-type: none;
   margin-bottom: 100px;
+  padding-left: 0;
 }
-main#primary section#projects div.content ul.projects li {
+
+#projects ul.projects li {
   height: 200px;
   width: 290px;
   border: 5px #FFF solid;
@@ -77,28 +86,34 @@ main#primary section#projects div.content ul.projects li {
   justify-content: center;
   color: #FFF;
 }
-main#primary section#projects div.content ul.projects li a {
+
+#projects ul.projects li a {
   border: 2px #FFF solid;
   padding: 10px 18px;
   background-color: rgba(0, 0, 0, 0.2);
 }
-main#primary section#projects div.content ul.projects li a:hover {
-  background-color: #36C3F0;
-  border-color: #36C3F0;
+
+#projects ul.projects li a:hover {
+  background-color: #F06436;
+  border-color: #F06436;
 }
-main#primary section#projects div.content ul.projects li.guess-game {
+
+#projects ul.projects li.guess-game {
   background: url("../images/color-game.jpg") center center no-repeat;
   background-size: cover;
 }
-main#primary section#projects div.content ul.projects li.to-do {
+
+#projects ul.projects li.to-do {
   background: url("../images/to-do.jpg") center center no-repeat;
   background-size: cover;
 }
-main#primary section#projects div.content ul.projects li.prettify {
+
+#projects ul.projects li.prettify {
   background: url("../images/prettify.jpg") center center no-repeat;
   background-size: cover;
 }
-main#primary section#skills {
+
+#skills {
   width: 100%;
   background: url("../images/skills-bg-dark.jpg") center center no-repeat;
   background-size: cover;
@@ -106,70 +121,107 @@ main#primary section#skills {
   height: 450px;
   color: #FFF;
 }
-main#primary section#skills .tools {
+
+#skills .tools {
   padding: 100px 0;
 }
-main#primary section#skills .tools ul.tech {
+
+#skills .tools ul.tech {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 0;
 }
-main#primary section#skills .tools ul.tech li {
+
+#skills .tools ul.tech li {
   margin-top: 10px;
 }
-main#primary section#skills .tools ul.tech li.tech-icon img {
+
+#skills .tools ul.tech li.tech-icon img {
   height: 95px;
   width: 150px;
 }
-main#primary section#contact {
+
+#contact {
   width: 100%;
   padding: 7em 0;
 }
-main#primary section#contact h2 {
+
+#contact h2 {
   text-align: center;
 }
-main#primary section#contact h2 a:hover {
+
+#contact h2 a:hover {
   color: #36C3F0;
 }
-footer#footer-main {
+
+#footer-main {
   display: flex;
   background: #000;
   color: #FFF;
   justify-content: space-between;
 }
-footer#footer-main div.footer-content {
+
+#footer-main .footer-content {
   margin-left: 10px;
 }
-footer#footer-main div.footer-content p img {
+
+#footer-main .footer-content p img {
   height: 25px;
   width: 25px;
 }
-footer#footer-main ul.about {
+
+#footer-main .about {
   display: flex;
   list-style-type: none;
   margin-right: 20px;
   justify-content: space-around;
 }
-footer#footer-main ul.about li.github {
+
+#footer-main .about .github {
   margin-right: 20px;
 }
-footer#footer-main ul.about li.github svg .github {
+
+#footer-main .about li.github svg .github {
   transition: 0.5s all ease-in-out;
 }
-footer#footer-main ul.about li.github svg .github:hover {
-  fill: #36C3F0;
+
+#footer-main .about .github svg .github:hover {
+  fill: #F06436;
 }
-footer#footer-main ul.about li.cv p {
+
+#footer-main .about .cv p {
   margin-top: 0px;
 }
-footer#footer-main ul.about li.cv a {
+
+.about .cv a {
   font-size: 0.7rem;
   border: 2px solid #FFF;
   padding: 10px;
 }
-footer#footer-main ul.about li.cv a:hover {
-  color: #36C3F0;
-  border-color: #36C3F0;
+
+.about .cv a:hover {
+  color: #F06436;
+  border-color: #F06436;
+}
+
+@media (max-width: 590px) {
+
+  #nav-main ul {
+    flex-direction: column;
+    margin-top: -70px;
+  }
+
+  #skills .tools {
+    padding: 50px 0;
+  }
+
+  #skills .tools ul.tech li {
+    margin-top: 30px;
+  }
+
+  #footer-main .footer-content {
+    font-size: .8rem;
+  }
 }
