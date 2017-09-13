@@ -5,7 +5,7 @@ html {
 }
 
 a {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color: inherit;
   transition: all 0.3s ease-in-out;
@@ -15,6 +15,11 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   background-color: rgba(247, 247, 247, 0.97);
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 #header-main {
@@ -37,11 +42,11 @@ body {
 }
 
 #nav-main ul li a {
-  padding: 15px 60px;
+  margin: 15px 60px;
 }
 
 #nav-main ul li a:hover {
-  color: #828B8F;
+  color: #F06436;
 }
 
 .bulb {
@@ -156,10 +161,13 @@ body {
   color: #36C3F0;
 }
 
+footer, #footer-main {
+  background: rgb(0, 0, 0);
+  color: #FFF;
+}
+
 #footer-main {
   display: flex;
-  background: #000;
-  color: #FFF;
   justify-content: space-between;
 }
 
