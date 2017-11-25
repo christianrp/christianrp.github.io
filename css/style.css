@@ -85,7 +85,7 @@ body {
 #projects ul.projects li {
   height: 200px;
   width: 290px;
-  border: 5px #FFF solid;
+  border: 2px #444 solid;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,12 +95,12 @@ body {
 #projects ul.projects li a {
   border: 2px #FFF solid;
   padding: 10px 18px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #projects ul.projects li a:hover {
   background-color: #F06436;
-  border-color: #F06436;
+  border-color: #444;
 }
 
 #projects ul.projects li.guess-game {
@@ -113,8 +113,8 @@ body {
   background-size: cover;
 }
 
-#projects ul.projects li.prettify {
-  background: url("../images/prettify.jpg") center center no-repeat;
+#projects ul.projects li.tic-tac-toe {
+  background: url("../images/tic-tac-toe.jpeg") center center no-repeat;
   background-size: cover;
 }
 
