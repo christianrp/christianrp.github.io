@@ -86,10 +86,15 @@ body {
   height: 200px;
   width: 290px;
   border: 2px #444 solid;
+  margin-bottom: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #FFF;
+}
+
+#projects ul.projects li:last-of-type {
+  margin-bottom: 0;
 }
 
 #projects ul.projects li a {
@@ -115,6 +120,11 @@ body {
 
 #projects ul.projects li.tic-tac-toe {
   background: url("../images/tic-tac-toe.jpeg") center center no-repeat;
+  background-size: cover;
+}
+
+#projects ul.projects li.animal-photo-gallery {
+  background: url("../images/animal-photo-gallery.jpeg") center center no-repeat;
   background-size: cover;
 }
 
