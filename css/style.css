@@ -29,13 +29,12 @@ a {
 }
 
 .hover-message .message-container {
-  display: none;
   opacity: 0;
+  transition: opacity 1s ease-in-out;
   position: absolute;
   border-radius: .3em;
   background-color: rgba(0,0,0,.9);
   padding: 10px;
-  transition: all 1s ease-in-out;
   z-index: 2;
 }
 
@@ -51,7 +50,6 @@ a {
 }
 
 .hover-message:hover .message-container {
-  display: block;
   opacity: 1;
 }
 
