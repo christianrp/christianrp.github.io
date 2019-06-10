@@ -245,11 +245,11 @@ a {
 }
 
 .language-container.spanish {
-  background-image: url("../images/spain-flag.jpg");
+  background-image: url("../images/spain-flag.png");
 }
 
 .language-container.portuguese {
-  background-image: url("../images/portugal-flag.jpg");
+  background-image: url("../images/portugal-flag.png");
 }
 
 .skills-container img {
