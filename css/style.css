@@ -311,6 +311,10 @@ a {
   .main-items-container {
     padding: 0;
   }
+  
+  .main-heading {
+    text-align: center;
+  }
 
   .main-header-item, 
   .main-header-item-inner {
