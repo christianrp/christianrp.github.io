@@ -68,7 +68,7 @@ a {
   height: 100vh;
   background-image: url('../images/space-bg.jpg');
   background-size: cover;
-  background-position: center center;\
+  background-position: center center;
 }
 
 .main-header-container {
@@ -94,11 +94,6 @@ a {
 
 .projects-title,
 .skills-title {
-  display: none;
-}
-
-.projects-show .main-title,
-.skills-show .main-title {
   display: none;
 }
 
@@ -159,7 +154,7 @@ a {
 .contact-show .main-items-container,
 .skills-show .main-items-container,
 .contact-show .main-header-container {
-  display:none
+  display:none;
 }
 
 .projects-container,
@@ -169,14 +164,31 @@ a {
   transition: opacity 1s ease-in-out;
   opacity: 0;
   position: relative;
+  margin: 20px;
+  border-radius: 2em;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.contact-show .contact-container {
+  display: block;
 }
 
 .projects-show .projects-container,
 .contact-show .contact-container,
 .skills-show .skills-container {
-  display: block;
   opacity: 1;
   flex: 1 1 auto;
+}
+
+.skills-show .skills-container,
+.projects-show .projects-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .projects-container .language-container {
@@ -239,27 +251,8 @@ a {
   background-image: url("../images/brazil-flag.jpg");
 }
 
-.skills-show .skills-container,
-.projects-show .projects-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
 .skills-container img {
   width: 50%;
-}
-
-.contact-container,
-.skills-container,
-.projects-container {
-  margin: 20px;
-  border-radius: 2em;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  padding: 20px;
-  box-sizing: border-box;
 }
 
 .contact-container {
