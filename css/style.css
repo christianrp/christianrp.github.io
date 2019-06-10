@@ -96,7 +96,12 @@ a {
 }
 
 .projects-title,
-.skills-title {
+.skills-title,
+.main-content,
+.projects-show .main-items-container,
+.contact-show .main-items-container,
+.skills-show .main-items-container,
+.contact-show .main-header-container {
   display: none;
 }
 
@@ -142,22 +147,11 @@ a {
   border-radius: 50%;
 }
 
-.main-content {
-  display: none;
-}
-
 .projects-show .main-content,
 .contact-show .main-content,
 .skills-show .main-content {
   display: flex;
   flex: 1 1 auto;
-}
-
-.projects-show .main-items-container,
-.contact-show .main-items-container,
-.skills-show .main-items-container,
-.contact-show .main-header-container {
-  display: none;
 }
 
 .projects-container,
@@ -331,5 +325,4 @@ a {
   .main-header-item:hover {
     background-color: rgba(0,0,0,.6);
   }
-
 }
