@@ -11,20 +11,25 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
+.no-margin {
+  margin: 0;
+}
+
 .close-section {
   padding: 8px 15px;
   border-radius: 50%;
   font-size: 16px;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -20px;
+  right: -20px;
   margin: 15px;
   border: 1px dashed;
   box-sizing: border-box;
+  background-color: rgba(0,0,0,.6);
 }
 
 .close-section:hover {
-  background-color: rgba(255, 255, 255, .1);
+  background-color: rgba(0, 0, 0, .9);
   border: 1px solid;
 }
 
