@@ -17,6 +17,6 @@ function showSection() {
 }
 
 function closeSection() {
-    const parentSection = this.parentElement.dataset.section;
+    let parentSection = this.parentElement.dataset.section;
     bodyTag.classList.remove(parentSection);
 }
