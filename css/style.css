@@ -340,4 +340,9 @@ a {
   .main-header-item:hover {
     background-color: rgba(0,0,0,.6);
   }
+  
+  .skills-show .skills-container, 
+  .projects-show .projects-container {
+    overflow: auto;
+  }
 }
