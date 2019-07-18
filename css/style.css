@@ -336,7 +336,7 @@ a {
 
   .main-header-item {
     box-shadow: 0 0 5px #e9e7e8, inset 0 0 5px #c0c0c2;
-    height: calc(100% / 4);
+    height: calc(100vh / 4);
   }
 
   .main-header-item:hover {
