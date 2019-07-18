@@ -314,6 +314,7 @@ a {
   .body-tag {
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: auto;
   }
   
   .main-items-container {
@@ -339,10 +340,5 @@ a {
 
   .main-header-item:hover {
     background-color: rgba(0,0,0,.6);
-  }
-  
-  .skills-show .skills-container, 
-  .projects-show .projects-container {
-    overflow: auto;
   }
 }
