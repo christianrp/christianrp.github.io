@@ -315,6 +315,7 @@ a {
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: auto;
+    min-height: 100vh;
   }
   
   .main-items-container {
